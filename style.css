@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    font-family: 'Roboto' , sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+    line-height: 1.1;
+    font-size: 1.7rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 110rem;
+    margin: auto;
+    overflow: hidden;
+    padding: 2rem;
+}
+
+.bg-light {
+    background-color: #fff;
+    color: #333;
+}
+
+.text-primary {
+    color: #93CB52;
+}
+
+.l-heading {
+    font-family: 5rem;
+    line-height: 4rem;
+    margin-bottom: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+m-heading {
+    font-size: 3.5rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.lead {
+    font-size: 1.9rem;
+    margin-bottom: 2rem;
+    line-height: 2.5rem;
+}
+
+
+.btn {
+    color: #fff;
+    background-color: #93CB52;
+    padding: 1.3rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem ;
+}
+
+/* Navbar */
+
+#navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.btn:hover {
+    background-color: #5e8630;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 1.7rem;
+    margin: 0.5rem;
+}
+
+#navbar ul li a:hover {
+    background-color: #93CB52;
+    border-radius: 0.5rem;
+}
+
+/* header */
+
+#header {
+    background: linear-gradient(rgba(51, 51, 51, 0.7), rgba(51, 51, 51, 0.7)) ,url("./Bg Image.jpg") no-repeat center center/cover;
+    height: 93vh;
+    text-align: center;
+}
+
+#header .header-content {
+    display: flex;
+    flex-direction: column;
+    height: 93vh;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+}
+
+#what {
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+    padding-bottom: 13rem;
+    padding-top: 2rem;
+}
+
+#what .boxes {
+    display: flex;
+    text-align: center;
+}
+
+#what .boxes .box {
+    flex: 1;
+    padding: 2rem;
+}
+
+#what .boxes i {
+    background-color: #93CB52;
+    padding:  4rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+#what .boxes h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
